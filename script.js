@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         method: 'POST', // Or 'GET', 'PUT', etc.
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'AIzaSyA03vOvdkXe3lzc4AAbRTOAlhEFuvKLrJc' // Or another type of authorization
+            'Authorization': 'api key' // Or another type of authorization
         },
         body: JSON.stringify({ /* Your request payload */ }) // Only if needed (e.g., POST request)
     })
