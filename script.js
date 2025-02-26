@@ -53,9 +53,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return response.json();
     })
     .then(data => {
+      console.log('Hi this is Ai chatbot') 
         // Handle successful response
     })
     .catch(error => {
+      console.log ('you have an error in your code') 
         // Handle the error (script.js:51:23)
     });
   });
