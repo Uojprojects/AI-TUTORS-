@@ -33,16 +33,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
       aiResponseDiv.textContent = 'Loading...'; // Show loading message
 
-      const apiKey = '';
+      const apiKey = 'AIzaSyDU8S8z1d7R7Cf9ZxdEyCYqjucbueoKHsA';
 
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/Gemini-2.0-Flash:generateContent`;
 
 
-      fetch('https://generativelanguage.googleapis.com/v1beta/models/Gemini-2.0-Flash:generateContent?key=', {
+      fetch('https://generativelanguage.googleapis.com/v1beta/models/Gemini-2.0-Flash:generateContent?key=AIzaSyDU8S8z1d7R7Cf9ZxdEyCYqjucbueoKHsA', {
         method: 'POST', // Or 'GET', 'PUT', etc.
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'api key' // Or another type of authorization
+            'Authorization': 'AIzaSyDU8S8z1d7R7Cf9ZxdEyCYqjucbueoKHsA' // Or another type of authorization
         },
         body: JSON.stringify({ /* Your request payload */ }) // Only if needed (e.g., POST request)
     })
